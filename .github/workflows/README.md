@@ -86,12 +86,27 @@ To run this project you need the following tools:
 
 ### Setup
 
-Clone this respository  to your desired folder:
+Linters
+A linter is a tool that analyzes your source code to flag programming errors, bugs, stylistic errors, and suspicious constructs(source: Wikipedia).
 
-sh
-cd NEWTORK-SCRIPT
-git clone 
-https://github.com/alyconr/Network-Shell-Script-.git
+There are a few reasons for using linters:
+
+Catching syntax errors is more efficient. There is no need to debug simple mistakes like typos - the linter does it for you.
+The entire codebase looks like written by one person.
+Programmers can focus on solving problems, instead of cleaning up the code.
+
+1: The project structure must be organized
+
+2: The files .hintrc.txt and .stylelintrc.json must be copied to save them.
+
+3: The installations must be started as appropriate following the steps mentioned.
+
+4: It must be verified that there are no errors, if there are, they must be corrected.
+
+5: The following files are copied and configured 
+server.js, webpack.config.js, .babelrc.
+
+6: Then, the installation of what is requested by the previous files for its operation is carried out.
 
 
 ### Install
@@ -111,6 +126,23 @@ Eslint
 
      npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
 
+Webpack
+
+     npm init -y
+     npm install webpack webpack-cli --save-dev
+Webpack Css loader
+
+     npm install --save-dev style-loader css-loader
+Webpack html loader
+
+     npm install --save-dev html-loader
+Webpack html plugin
+
+     npm install --save-dev html-webpack-plugin
+Webpack dev server
+
+     npm install --save-dev webpack-dev-server     
+
 
 
 ### Usage 
@@ -123,10 +155,17 @@ sh
 
 ### Run Test
 
-To run test, run the following command or endpoint:
+To run tests, run the following command:
 
-sh
-python -m unittest test_module.TestClass
+To test the Stylelint linter:
+
+    npx stylelint "**/*.{css,scss}"
+To test the Webhint:
+
+    npx hint .
+To test the ESLint linter:
+
+    npx eslint .
 
 
 
