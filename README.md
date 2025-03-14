@@ -186,9 +186,14 @@ Jeysson Contreras
  - GitHub: [@alyconr](
 https://github.com/alyconr
 )
+ - GitHub: [Nelson Sebastian Castañeda Gutierrez](
+https://github.com/SebastianGutierrez23
+)
  - LinkedIn: [LinkedIn](
 https://www.linkedin.com/in/jeysson-aly-contreras
 )
+ - LinkedIn: [LinkedIn](
+https://www.linkedin.com/in/sebastian-guti%C3%A9rrez-236b9b206/
 
 
 ## 🕹️ Future Features <a name="future-features"></a>
