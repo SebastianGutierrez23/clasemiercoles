@@ -37,12 +37,14 @@
 
 <p>
 This Projects was built using:
-HTML, MARKDOWN AND SHELLSCRIPT, GIT, GITHUB
+HTML,CSS, JAVA SCRIPT, MARKDOWN AND SHELLSCRIPT, GIT, GITHUB
 </p>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <li> HTML </li>
+<li> CSS </li>
+<li> JAVE SCRIPT </li>
 <li> MARKDOWN </li>
 <li> SHELLSCRIPT </li>
 <li> GIT </li>
