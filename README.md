@@ -149,10 +149,11 @@ Webpack dev server
 
 ### Usage 
 
-To run the project, execute the following command:
+First, you must access the following link: https://formulariowebpack-g3f0b2h0gmd7d7bn.brazilsouth-01.azurewebsites.net/
 
-sh
-./networkScript.sh
+Second, you must fill out the various data collection fields on the form.
+
+Finally, click the submit button to store the requested data.
 
 
 ### Run Test
