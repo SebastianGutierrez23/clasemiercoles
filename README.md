@@ -4,7 +4,7 @@
 
 <img src="logo.png" alt="logo" width="140" height="auto" style="border-radius:50%"   />
 <br/>
-<h3><b>NEWTORK SCRIPT PROJECT</b>
+<h3><b>Proyeco formulario web pack</b>
 
 </div>
 
