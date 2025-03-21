@@ -47,7 +47,6 @@ HTML,CSS, JAVA SCRIPT, MARKDOWN AND SHELLSCRIPT, GIT, GITHUB
 <li> CSS </li>
 <li> JAVE SCRIPT </li>
 <li> MARKDOWN </li>
-<li> SHELLSCRIPT </li>
 <li> GIT </li>
 <li> GITHUB </li>
 
