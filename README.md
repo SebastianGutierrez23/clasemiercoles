@@ -31,7 +31,8 @@
 
 # 📖 [Formulario Web]<a name="about-project"></a>
 
-*[Networ Script Project]* This is a first project in SENA'S   SysAdmin Network Curriculum
+*[Formulario Web]* 
+This is my first project at SENA in which we use configurations to perform deployments in Azure.
 
 ## ⚒️ Build With <a name="built-with"></a>
 
