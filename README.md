@@ -84,7 +84,7 @@ To run this project you need the following tools:
 
 - [VS Code]
 - [Git and GitHub]
-- [ShellScript ]
+
 
 ### Setup
 
