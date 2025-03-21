@@ -202,6 +202,44 @@ Ruby: RuboCop.
 
 Java: Checkstyle, PMD.
 
+** USO DE WEBPACK**
+
+Step 1: Create a Project
+Create a folder for your project:
+
+bash
+Copy
+mkdir my-webpack-project
+cd my-webpack-project
+Initialize a Node.js project:
+
+bash
+Copy
+npm init -y
+Install Webpack and Webpack CLI (command-line interface):
+
+bash
+Copy
+npm install webpack webpack-cli --save-dev
+Step 2: Project Structure
+Create the following file structure:
+
+Copy
+my-webpack-project/
+├── src/
+│ ├── index.js
+│ └── styles.css
+├── dist/
+├── webpack.config.js
+└── package.json
+src/index.js: Main JavaScript file.
+
+src/styles.css: CSS styles file.
+
+dist/: Folder where Webpack will generate optimized files.
+
+webpack.config.js: Webpack configuration file.
+
 ### Run Test
 
 To run tests, run the following command:
@@ -215,6 +253,17 @@ To test the Webhint:
 To test the ESLint linter:
 
     npx eslint .
+
+** WEBPACK**
+
+Ejecutar Webpack
+Ejecuta Webpack para empaquetar tu proyecto:
+
+bash
+Copy
+npx webpack
+Webpack generará un archivo bundle.js en la carpeta dist/.
+
 
 
 
