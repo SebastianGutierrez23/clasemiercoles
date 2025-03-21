@@ -4,7 +4,7 @@
 
 <img src="logo.png" alt="logo" width="140" height="auto" style="border-radius:50%"   />
 <br/>
-<h3><b>Proyeco formulario web pack</b>
+<h3><b>Proyecto formulario web pack</b>
 
 </div>
 
@@ -29,7 +29,7 @@
 - [❓ FAQ ](#faq)
 - [📃 License](#license)
 
-# 📖 [NETWORK SCRIPT PROJECT]<a name="about-project"></a>
+# 📖 [Formulario Web]<a name="about-project"></a>
 
 *[Networ Script Project]* This is a first project in SENA'S   SysAdmin Network Curriculum
 
@@ -83,6 +83,7 @@ To get a local copy up and running follow these steps:
 To run this project you need the following tools:
 
 - [VS Code]
+- [Node.js]
 - [Git and GitHub]
 
 
