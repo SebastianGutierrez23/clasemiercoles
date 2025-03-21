@@ -150,12 +150,57 @@ Webpack dev server
 
 ### Usage 
 
-First, you must access the following link: https://formulariowebpack-g3f0b2h0gmd7d7bn.brazilsouth-01.azurewebsites.net/
+1. Install a linter
+First, you must install the linter corresponding to the language you are using. Some common examples:
 
-Second, you must fill out the various data collection fields on the form.
+JavaScript/TypeScript: ESLint (npm install eslint --save-dev)
 
-Finally, click the submit button to store the requested data.
+Python: Flake8 or Pylint (pip install flake8 or pip install pylint)
 
+CSS/SCSS: Stylelint (npm install stylelint --save-dev)
+
+HTML: HTMLHint (npm install htmlhint --save-dev)
+
+Go: Golangci-lint (go install github.com/golangci/golangci-lint/cmd/golangci-lint@latest)
+
+2. Configure the linter
+Linters are usually highly configurable. You can define specific rules in a configuration file. For example:
+
+ESLint: Create an .eslintrc.json or .eslintrc.js file in the root of your project.
+
+Pylint: Create a .pylintrc file.
+
+Stylelint: Create a .stylelintrc.json file.
+
+3. Run the linter
+You can run the linter manually from the terminal or integrate it into your code editor.
+
+From the terminal:
+
+Example with ESLint: npx eslint file.js
+
+Example with Flake8: flake8 file.py
+
+In a code editor (such as VS Code):
+
+Install the linter extension (for example, the ESLint extension for VS Code).
+
+The linter will automatically check your code as you type and display errors and warnings in real time.
+
+Examples of popular linters:
+JavaScript/TypeScript: ESLint, Prettier (for formatting).
+
+Python: Flake8, Pylint, Black (for formatting).
+
+CSS/SCSS: Stylelint.
+
+HTML: HTMLHint.
+
+Go: Golangci-lint.
+
+Ruby: RuboCop.
+
+Java: Checkstyle, PMD.
 
 ### Run Test
 
