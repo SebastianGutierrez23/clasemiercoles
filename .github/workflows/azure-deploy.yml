@@ -46,6 +46,6 @@ jobs:
           port: ${{ secrets.VM_PORT }}
           script: |
             cd ~/myapp
-            npm install --production
+            npm install git
             # If using PM2, restart the app or start if not running:
-            pm2 restart app || pm2 start server.js --name app
+            pm2 restart app || pm2 start server.js --name formulario
